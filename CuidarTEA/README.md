@@ -12,3 +12,9 @@ Os controles permitem reproduzir, pausar, reiniciar e navegar na linha do tempo.
 
 - `stand_loop_v06.html`, `.css` e `.js`: animatic.
 - `assets/`: logomarca, QR, imagem de fundo e capturas oficiais usadas nas cenas.
+
+## Material para reconstrução
+
+- [Guia de reconstrução](RECONSTRUCAO_V06.md)
+- [Design system da V06](DESIGN_SYSTEM_V06.md)
+- [Documentação de roteiro, direção, câmera, assets, referências e QA](documentacao/)
