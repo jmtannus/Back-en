@@ -2,6 +2,8 @@
 
 Animatic web interativo de 55 segundos para apresentação do CuidarTEA.
 
+**Prévia pública:** [standloopv06.vercel.app](https://standloopv06.vercel.app)
+
 ## Abrir
 
 Abra `stand_loop_v06.html` em um navegador moderno. Para uma prévia local mais consistente, execute um servidor estático na pasta `CuidarTEA/stand_loop_v06` e abra o arquivo pelo navegador.
