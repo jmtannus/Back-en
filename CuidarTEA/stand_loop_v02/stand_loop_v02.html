@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f9">
+  <title>CuidarTEA · Stand Loop V02</title>
+  <link rel="stylesheet" href="stand_loop_v02.css">
+</head>
+<body>
+  <div id="preload" role="status" aria-live="polite">Preparando imagens do CuidarTEA…</div>
+  <main id="viewport" aria-label="CuidarTEA: loop institucional de 38 segundos, sem áudio">
+    <div id="stage">
+      <div class="paper-grain" aria-hidden="true"></div>
+      <div class="topline" aria-hidden="true"></div>
+      <div id="brand" aria-label="CuidarTEA"><img src="assets/cuidartea_logo_master_v01.png" alt="CuidarTEA"></div>
+      <div id="mast-label">PLATAFORMA INTERSETORIAL DE CUIDADO AO TEA</div>
+
+      <div id="opening" class="moment">
+        <div class="kicker">CUIDADO EM REDE</div>
+        <div class="opening-head"><span class="giant">9</span><h1>pontos<br>da rede.</h1></div>
+        <div class="opening-under"><i></i><span>1 plataforma.</span></div>
+      </div>
+
+      <div id="role-heading" class="moment">
+        <div class="role-kicker">CUIDARTEA / PRODUTO</div>
+        <h2 id="role-name">RECEPÇÃO</h2>
+        <div id="role-section">VISÃO GERAL</div>
+      </div>
+
+      <div id="product-plane" aria-label="Capturas oficiais da plataforma">
+        <div class="plane-rule"></div>
+        <div id="screen-stack"></div>
+        <div class="plane-accent"></div>
+      </div>
+
+      <svg id="network" viewBox="0 0 1920 1080" aria-hidden="true"><g id="connections"></g><g id="points"></g></svg>
+
+      <div id="integrated" class="moment">
+        <div class="kicker">CUIDARTEA / REDE INTEGRADA</div>
+        <h2>Uma rede.<br>Uma visão.</h2>
+        <p>9 pontos da rede. 1 plataforma.</p>
+      </div>
+      <div id="stat-number" aria-hidden="true"><span id="digit-two">2</span><span id="digit-zero">0</span></div>
+      <div id="stat-copy" class="moment"><div id="stat-title">SEGUNDOS</div><div id="stat-subtitle">para registrar</div></div>
+
+      <div id="closing" class="moment">
+        <div class="closing-rule"></div>
+        <h2>Humano.<br>Claro.<br><span>Conectado.</span></h2>
+        <div class="closing-cta">CONHEÇA A PLATAFORMA <span>↗</span></div>
+        <!-- PLACEHOLDER: final QR destination has not been confirmed. -->
+        <div class="qr-placeholder" aria-label="Espaço reservado para QR Code"><span>QR CODE</span><small>ÁREA RESERVADA</small></div>
+      </div>
+
+      <div id="bottomline" aria-hidden="true"><i></i></div>
+    </div>
+  </main>
+  <nav id="controls" aria-label="Controles do protótipo">
+    <button id="play" type="button">Pausar</button>
+    <button id="restart" type="button">Reiniciar</button>
+    <input id="seek" aria-label="Posição no loop em segundos" type="range" min="0" max="38" step="0.01" value="0">
+    <output id="time">00.0 / 38.0</output>
+    <button id="fullscreen" type="button">Tela cheia</button>
+  </nav>
+  <script src="stand_loop_v02.js"></script>
+</body>
+</html>
